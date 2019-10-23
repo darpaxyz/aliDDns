@@ -8,6 +8,7 @@ domain = ' '
 accessKeyId = ' '
 # 阿里云获取的accesskeysecret
 accessSecret = ' '
+# 获取全部解析记录
 DDns.save_records(accessKeyId,accessSecret,domain)
 # 要更改的解析记录
 DDns.update_record(accessKeyId,accessSecret,'@','A',wanip)
